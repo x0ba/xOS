@@ -22,13 +22,13 @@ fi
 
 case "${IMAGE}" in
 "bluefin"*)
+    /ctx/build_files/desktop-changes.sh
     /ctx/build_files/desktop-packages.sh
     ;;
 "bazzite"*)
+    /ctx/build_files/desktop-changes.sh
     /ctx/build_files/desktop-packages.sh
     ;;
 esac
 
-/ctx/build_files/server-packages.sh
 /ctx/build_files/branding.sh
-/ctx/build_files/signing.sh
