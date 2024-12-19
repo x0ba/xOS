@@ -16,6 +16,7 @@ dnf5 install -y \
   ibm-plex-fonts-all \
   emacs \
   libretls \
+  neovim \
   ltrace \
   gnome-shell-extension-hotedge \
   gnome-shell-extension-just-perfection \
