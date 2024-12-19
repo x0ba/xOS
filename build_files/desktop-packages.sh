@@ -13,7 +13,6 @@ dnf5 install -y \
   nu \
   ibm-plex-fonts-all \
   emacs \
-  neovim \
   gnome-shell-extension-hotedge \
   gnome-shell-extension-just-perfection \
   rsms-inter-fonts \
