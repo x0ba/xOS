@@ -6,26 +6,18 @@ echo "Running desktop packages scripts..."
 /ctx/build_files/power-management.sh
 
 dnf5 -y copr enable kylegospo/bazzite
+dnf5 -y copr enable aquacash5/nerd-fonts
 
 # common packages installed to desktops
 dnf5 install -y \
-  gh \
-  git-credential-oauth \
   nu \
-  libpcap-devel \
   ibm-plex-fonts-all \
   emacs \
-  libretls \
   neovim \
-  ltrace \
   gnome-shell-extension-hotedge \
   gnome-shell-extension-just-perfection \
-  patch \
   rsms-inter-fonts \
-  pipx \
-  strace \
-  udica \
-  ydotool
+  pipx
 
 # github direct installs
 /ctx/build_files/github-release-install.sh twpayne/chezmoi x86_64
