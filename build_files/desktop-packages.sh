@@ -9,14 +9,12 @@ echo "Running desktop packages scripts..."
 dnf5 install -y \
   gh \
   git-credential-oauth \
-  cosign \
   nu \
   libpcap-devel \
   ibm-plex-fonts-all \
   emacs \
   libretls \
   ltrace \
-  gnome-shell-extension-hotedge \
   gnome-shell-extension-just-perfection \
   patch \
   rsms-inter-fonts \
