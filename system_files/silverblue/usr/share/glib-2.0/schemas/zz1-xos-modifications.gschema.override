@@ -7,3 +7,8 @@ gtk-theme='adw-gtk3-dark'
 
 [org.gnome.desktop.wm.preferences]
 resize-with-right-button=true
+
+[org.gnome.shell]
+enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'blur-my-shell@aunetx', 'gsconnect@andyholmes.github.io', 'logomenu@aryan_k', 'search-light@icedman.github.com', 'hotedge@jonathan.jdoda.ca', 'caffeine@patapon.info']
+
+
