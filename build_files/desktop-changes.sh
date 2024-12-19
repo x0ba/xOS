@@ -18,9 +18,6 @@ if [[ "${IMAGE}" =~ bluefin ]]; then
 [org.gnome.shell]
 enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'blur-my-shell@aunetx', 'gsconnect@andyholmes.github.io', 'logomenu@aryan_k', 'search-light@icedman.github.com', 'hotedge@jonathan.jdoda.ca', 'just-perfection-desktop@just-perfection', 'caffeine@patapon.info']
 
-[org.gnome.shell.extensions.blur-my-shell.overview]
-style-components=3
-
 [org.gnome.shell.extensions.just-perfection]
 workspace-switcher-size=15
 EOF
