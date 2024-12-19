@@ -18,6 +18,7 @@ dnf5 install -y \
   libretls \
   ltrace \
   gnome-shell-extension-hotedge \
+  gnome-shell-extension-just-perfection \
   patch \
   rsms-inter-fonts \
   pipx \
