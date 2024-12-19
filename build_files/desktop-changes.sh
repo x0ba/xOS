@@ -2,24 +2,6 @@
 
 set ${SET_X:+-x} -eou pipefail
 
-mkdir -p /etc/xdg/autostart
-mkdir -p /etc/environment.d
-
-# Zed SSD
-tee /tmp/zed.conf <<EOF
-ZED_WINDOW_DECORATIONS=server
-EOF
-
-mkdir -p /usr/share/user-tmpfiles.d
-tee /usr/share/user-tmpfiles.d/editor.conf <<EOF
-C %h/.config/environment.d/editor.conf - - - - /usr/share/ublue-os/etc/environment.d/default-editor.conf
-EOF
-
-mkdir -p /usr/share/ublue-os/etc/environment.d
-tee /usr/share/ublue-os/etc/environment.d/default-editor.conf <<EOF
-EDITOR=/usr/bin/nvim
-EOF
-
 if [[ "${IMAGE}" =~ bazzite|bluefin ]]; then
     tee /usr/share/glib-2.0/schemas/zz1-xos-modifications.gschema.override << 'EOF'
 [org.gnome.desktop.interface]
