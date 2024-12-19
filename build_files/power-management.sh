@@ -2,7 +2,7 @@
 
 set -euox pipefail
 
-dnf copr enable abn/throttled
+dnf5 copr enable abn/throttled
 dnf5 remove -y tuned-ppd thermald tuned
 
 dnf5 install -y \
