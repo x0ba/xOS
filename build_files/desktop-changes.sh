@@ -10,16 +10,15 @@ document-font-name='Inter 12'
 monospace-font-name='JetBrains Mono 12'
 color-scheme='prefer-dark'
 gtk-theme='adw-gtk3-dark'
+
 EOF
 fi
 
 if [[ "${IMAGE}" =~ bluefin ]]; then
     tee -a /usr/share/glib-2.0/schemas/zz1-xos-modifications.gschema.override << 'EOF'
 [org.gnome.shell]
-enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'blur-my-shell@aunetx', 'gsconnect@andyholmes.github.io', 'logomenu@aryan_k', 'search-light@icedman.github.com', 'hotedge@jonathan.jdoda.ca', 'just-perfection-desktop@just-perfection', 'caffeine@patapon.info']
+enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'blur-my-shell@aunetx', 'gsconnect@andyholmes.github.io', 'logomenu@aryan_k', 'search-light@icedman.github.com', 'caffeine@patapon.info', 'dash-to-dock@micxgx.gmail.com' ]
 
-[org.gnome.shell.extensions.just-perfection]
-workspace-switcher-size=15
 EOF
 fi
 

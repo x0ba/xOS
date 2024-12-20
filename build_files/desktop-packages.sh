@@ -13,10 +13,7 @@ dnf5 install -y \
   ibm-plex-fonts-all \
   emacs \
   igt-gpu-tools \
-  gnome-shell-extension-hotedge \
-  gnome-shell-extension-just-perfection \
-  rsms-inter-fonts \
-  pipx
+  rsms-inter-fonts
 
 # github direct installs
 /ctx/build_files/github-release-install.sh twpayne/chezmoi x86_64
