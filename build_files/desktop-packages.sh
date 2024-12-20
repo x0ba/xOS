@@ -6,7 +6,6 @@ echo "Running desktop packages scripts..."
 /ctx/build_files/power-management.sh
 
 dnf5 -y copr enable kylegospo/bazzite
-dnf5 -y copr enable aquacash5/nerd-fonts
 
 # common packages installed to desktops
 dnf5 install -y \
